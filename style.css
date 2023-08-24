@@ -1,0 +1,367 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* START- STYLING FOR THE LANDING-PAGE   */
+.landing-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  height: 100svh;
+  width: 100%;
+  
+}
+
+.back-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+  .back-video{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+/* END- STYLING FOR THE LANDING-PAGE   */
+
+
+/* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    padding: 0px 5%;   
+    background-color: transparent; 
+    z-index: 10;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    text-shadow: orange 5px 5px 5px;
+  }
+
+  nav a:hover{
+    color: orange;
+    text-shadow: black 5px 5px 5px;
+  }
+/* END: STYLING FOR THE NAVBAR ENDS HERE */
+
+
+/* START- CENTER CAPTION ON LANDING-PAGE AND EXPLORE BUTTON HERE */
+.content{
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+/* start- vehicle registration services */
+.content h1{
+    font-family: fantasy;
+    font-size: 70px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    animation: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+@keyframes change {
+  0%{
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  }
+  50%{
+  color: white;
+  }  
+}
+/* end- vehicle registration services */
+
+/* start quick, reliable convenient */
+.content h2{
+  margin-top: 20px;
+  font-size: 25px;
+}
+/* end quick, reliable convenient */
+
+/* start- explore button */
+.content a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px 60px;
+  border-radius: 25px;
+  background: transparent;
+  margin-top: 30px;
+  outline: 2px solid white;
+  outline-offset: -7px;
+}
+
+.content a:hover{
+  background-image: linear-gradient(315deg, #69140e 0%, #d58936 74%);
+  padding: 25px 65px;
+  border-radius: 25px;
+  /* outline: 2px solid rgb(64, 30, 0); */
+  /* color: rgb(64, 30, 0) */
+}
+/* end- explore button */
+
+/* start- get on the road hassle free styling */
+.content h3{
+  font-family: 'Splash', cursive;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-shadow: orange 5px 5px 5px;
+  margin-top: 30px;
+}
+/* end- get on the road hassle free styling */
+
+
+
+/* END- CENTER CAPTION LANDING-PAGE AND EXPLORE BUTTON HERE */
+
+
+/* START- ABOUT SECTION BEGINS HERE */
+#about{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  height: 100svh;
+  width: 100vw;
+  color: white; 
+  background-image: linear-gradient(315deg, #69140e 0%, #d58936 74%);
+  
+}
+
+/*start- style inner div */
+.box-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+  width: 100%; 
+}
+/*end- style inner div */
+
+/*start- jolly's image styling */
+.box-content img{
+  margin-left: 100px;
+  width: 330px;
+  /* width: 30%; */
+  height:440px;
+  /* height: 80%; */
+
+  border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
+}
+/*end- jolly's image styling */
+
+/*start- jolly's name styling */
+.box-content h1{
+  font-family: 'Splash', cursive;
+  letter-spacing: 2px;
+  font-size: 75px;
+  margin-left: 100px;
+  text-align: center;
+  text-shadow: orange 5px 5px 5px;
+}
+/*end- jolly's name styling */
+
+.box-content h1 span{
+  font-family: 'Splash', cursive;
+  letter-spacing: 1px;
+  font-size: large;
+  /* padding-top: 0; */
+  /* margin-top: 0; */
+}
+
+/*start- jolly's description styling */
+.box-content p{
+  font-size: 14px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-shadow: orange 5px 5px 5px; 
+}
+/*start- jolly's image styling */
+
+/* END- ABOUT SECTION ENDS HERE */
+
+#services{
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 150vh;
+  width: 100vw;
+  color: white; 
+  background-image: linear-gradient(215deg, #d58936  20%,  #69140e 74%);  
+}
+
+.sub{
+  height: 100vh;
+  width: 65vw;
+}
+
+#services h1{
+  font-family: 'Splash', cursive;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  font-size: 40px;
+  text-shadow: orange 5px 5px 5px;
+}
+
+.serv-desc{
+  width: 60vw;
+  text-align: center;
+  text-shadow: orange 5px 5px 5px;
+}
+
+
+
+.accordion-flush{
+  width: 50vw;
+}
+
+.accordion-body{
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  text-shadow: black 3px 2px 3px;
+  background-image: linear-gradient(-300deg, #d99058 0%, #f8de7e 74%);
+}
+
+
+.accordion-button.collapsed{
+  font-family: fantasy;
+  font-size: 22px;
+  color: black;
+  letter-spacing: 2px;
+  word-spacing: 6px; 
+  background-image: linear-gradient(319deg, #ba2d0b 0%, #fe7f2d 37%, #ffbf46 100%);
+
+
+  
+}
+
+.accordion-button.collapsed:hover{
+  background-image: linear-gradient(-316deg, #d14545 0%, #ff9933 74%);
+}
+
+
+.marq{
+  display: flex;
+  /* top: 50%; */
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STYLING FOR THE FOOTER AREA  */
+
+footer{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    background-color: #6E2C00;
+}
+
+
+
+.copyright{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  color: white;
+  /* text-decoration: none; */
+}
+
+.copyright a{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.netlify{
+  width: 15px;
+  height: 15px;
+}
+
+
+.tag{
+ text-shadow:5px 5px 3px black;
+ animation:bayo 2s ease 1s infinite;  
+}
+
+@keyframes bayo{
+
+ 0%{
+    transform:rotateX(-45deg);
+}
+ 50%{
+    transform:rotateY(45deg);
+}
+}
+
+
+
