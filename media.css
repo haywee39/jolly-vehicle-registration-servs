@@ -1,13 +1,13 @@
 /*FIRST MEDIA QUERY FOR THE ABOUT US PAGE  */
 @media (width < 350px) { 
     #services{
-        height: 250vh;
+        height: 230vh;
     }
 
     .sub{
         /* padding-top: 10vh; */
         width:100vw;
-        height: 180vh;
+        height: 170vh;
         color: white;
         
     }
