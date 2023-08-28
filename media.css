@@ -1,0 +1,75 @@
+/*FIRST MEDIA QUERY FOR THE ABOUT US PAGE  */
+@media (width < 350px) { 
+    #services{
+        height: 170vh;
+    }
+
+    .sub{
+        /* padding-top: 10vh; */
+        width:100vw;
+        height: 170vh;
+        color: white;
+        
+    }
+    #services h1{
+        font-size: 25px;
+    }
+
+    .serv-desc{
+        font-size: 10px;
+    }
+    .accordion-flush{
+        width: 80vw;
+        margin-left: 10%;
+    }
+
+    .accordion-body{
+       font-size: 10px;        
+    }
+
+    .accordion-button.collapsed{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    
+
+} 
+
+/*SECOND MEDIA QUERY FOR THE ABOUT US PAGE  */
+@media (width < 770px) {
+    #services{
+        height: 130vh;
+    }
+
+    .sub{
+        /* padding-top: 10vh; */
+        width:100vw;
+        height: 120vh;
+        color: white;
+        margin-bottom: 10px;
+        
+    }
+    #services h1{
+        font-size: 30px;
+    }
+
+    .serv-desc{
+        font-size: 13px;
+    }
+
+    
+    .accordion-flush{
+        width: 80vw;
+        margin-left: 10%;
+    }
+
+    .accordion-body{
+       font-size: 13px;        
+    }
+
+    .accordion-button.collapsed{
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
