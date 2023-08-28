@@ -227,7 +227,7 @@ nav {
   /* justify-content: center; */
   align-items: center;
   height: 150vh;
-  width: 100vw;
+  width: 100%;
   color: white; 
   background-image: linear-gradient(215deg, #d58936  20%,  #69140e 74%);  
 }
@@ -246,20 +246,20 @@ nav {
 }
 
 .serv-desc{
-  width: 60vw;
+  /* width: 60vw; */
   text-align: center;
   text-shadow: orange 5px 5px 5px;
 }
 
 
 
-.accordion-flush{
+/* .accordion-flush{
   width: 50vw;
-}
+} */
 
 .accordion-body{
   color: white;
-  font-size: 19px;
+  font-size: 17px;
   text-align: center;
   text-shadow: black 3px 2px 3px;
   background-image: linear-gradient(-300deg, #d99058 0%, #f8de7e 74%);
@@ -268,9 +268,9 @@ nav {
 
 .accordion-button.collapsed{
   font-family: fantasy;
-  font-size: 22px;
+  font-size: 20px;
   color: black;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   word-spacing: 6px; 
   background-image: linear-gradient(319deg, #ba2d0b 0%, #fe7f2d 37%, #ffbf46 100%);
 
