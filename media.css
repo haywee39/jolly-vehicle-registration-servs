@@ -1,7 +1,17 @@
 /* FIRST MEDIA QUERY FOR THE HOME SECTION */
 @media (width < 350px){
+    .landing-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        height: 80svh;
+        width: 100%;
+        
+      }
+      
     .content{
-        padding-top: 30px;
+        padding-top: 20px;
 
     }
     .content h1{
@@ -11,10 +21,10 @@
 
     .content h2{
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 15px;
       }
       .content a{
-        font-size: 10px;
+        font-size: 15px;
         padding: 10px 30px;
         border-radius: 13px;
         background: transparent;
@@ -22,6 +32,11 @@
         outline: 1px solid white;
         outline-offset: -3px;
       }
+
+      .content a:hover{
+        padding: 15px 25px;
+        border-radius: 25px;
+       }
       .content h3{
         letter-spacing: 1px;
         font-size: 18px;
@@ -35,8 +50,17 @@
 
 /*SECOND MEDIA QUERY FOR THE HOME SECTION  */
 @media (width < 770px) {
+    .landing-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        height: 70svh;
+        width: 100%;
+        
+      }
     .content{
-        padding-top: 40px;
+        padding-top: 30px;
 
     }
     .content h1{
@@ -46,16 +70,20 @@
 
     .content h2{
         margin-top: 13px;
-        font-size: 25px;
+        font-size: 20px;
       }
       .content a{
-        font-size: 10px;
+        font-size: 20px;
         padding: 15px 35px;
         border-radius: 13px;
         margin-top: 18px;
         outline: 1px solid white;
         outline-offset: -5px;
       }
+      .content a:hover{
+        padding: 20px 30px;
+        border-radius: 30px;
+       }
       .content h3{
         letter-spacing: 2px;
         font-size: 25px;
