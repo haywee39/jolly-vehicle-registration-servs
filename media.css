@@ -1,13 +1,13 @@
 /*FIRST MEDIA QUERY FOR THE SERVICE SECTION  */
 @media (width < 350px) { 
     #services{
-        height: 190vh;
+        height: 210vh;
     }
 
     .sub{
         /* padding-top: 10vh; */
         width:100vw;
-        height: 130vh;
+        height: 180vh;
         color: white;
         
     }
@@ -39,13 +39,13 @@
 /*SECOND MEDIA QUERY FOR THE SERVICE SECTION  */
 @media (width < 770px) {
     #services{
-        height: 150vh;
+        height: 170vh;
     }
 
     .sub{
         /* padding-top: 10vh; */
         width:100vw;
-        height: 110vh;
+        height: 130vh;
         color: white;
         margin-bottom: 10px;
         
