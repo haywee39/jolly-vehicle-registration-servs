@@ -1,3 +1,71 @@
+/* FIRST MEDIA QUERY FOR THE HOME SECTION */
+@media (width < 350px){
+    .content{
+        padding-top: 30px;
+
+    }
+    .content h1{
+        font-size: 30px;
+
+    }
+
+    .content h2{
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .content a{
+        font-size: 10px;
+        padding: 10px 30px;
+        border-radius: 13px;
+        background: transparent;
+        margin-top: 15px;
+        outline: 1px solid white;
+        outline-offset: -3px;
+      }
+      .content h3{
+        letter-spacing: 1px;
+        font-size: 18px;
+        text-shadow: orange 5px 5px 5px;
+        margin-top: 15px;
+      }
+      
+
+
+}
+
+/*SECOND MEDIA QUERY FOR THE HOME SECTION  */
+@media (width < 770px) {
+    .content{
+        padding-top: 40px;
+
+    }
+    .content h1{
+        font-size: 35px;
+
+    }
+
+    .content h2{
+        margin-top: 13px;
+        font-size: 25px;
+      }
+      .content a{
+        font-size: 10px;
+        padding: 15px 35px;
+        border-radius: 13px;
+        margin-top: 18px;
+        outline: 1px solid white;
+        outline-offset: -5px;
+      }
+      .content h3{
+        letter-spacing: 2px;
+        font-size: 25px;
+        text-shadow: orange 5px 5px 5px;
+        margin-top: 20px;
+      }
+    
+
+}
+
 /*FIRST MEDIA QUERY FOR THE SERVICE SECTION  */
 @media (width < 350px) { 
     #services{
