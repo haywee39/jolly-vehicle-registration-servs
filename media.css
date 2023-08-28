@@ -4,8 +4,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 90vh;
-        height: 90svh;
+        height: 100vh;
+        height: 100svh;
         width: 100%;
         
       }
@@ -54,8 +54,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh;
-        height: 80svh;
+        height: 100vh;
+        height: 100svh;
         width: 100%;
         
       }
