@@ -43,42 +43,51 @@ body{
 
 
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
-nav {
+.navbar {
     position: fixed;
     display: flex;
-    justify-content: right;
+    justify-content: center  !important;
     top: 0;
     left: 0;
     height: 10vh;
     width: 100%;
     align-items: center;
     padding: 0px 5%;   
-    background-color: transparent; 
+    background-color: transparent  !important;
     z-index: 10;
   }
+ 
   
-  nav ul {
+
+  .navbar img{
+    height: 9vh;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  .navbar ul {
     list-style-type: none;
     padding: 0;
   }
   
-  nav li {
+  .navbar li {
     display: inline-block;
     margin: 0 20px;
   }
   
-  nav a {
+  .navbar a {
     position: relative;
     color: white;
     text-decoration: none;
     text-shadow: orange 5px 5px 5px;
   }
 
-  nav a:hover{
+  .navbar a:hover{
     color: orange;
     text-shadow: black 5px 5px 5px;
   }
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
+
 
 
 /* START- CENTER CAPTION ON LANDING-PAGE AND EXPLORE BUTTON HERE */
@@ -183,10 +192,7 @@ nav {
 .box-content img{
   margin-left: 100px;
   width: 330px;
-  /* width: 30%; */
   height:440px;
-  /* height: 80%; */
-
   border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
 }
 /*end- jolly's image styling */
@@ -205,7 +211,7 @@ nav {
 .box-content h1 span{
   font-family: 'Splash', cursive;
   letter-spacing: 1px;
-  font-size: large;
+  font-size: 30px;
   /* padding-top: 0; */
   /* margin-top: 0; */
 }
@@ -226,7 +232,7 @@ nav {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  height: 150vh;
+  height: 170vh;
   width: 100%;
   color: white; 
   background-image: linear-gradient(215deg, #d58936  20%,  #69140e 74%);  

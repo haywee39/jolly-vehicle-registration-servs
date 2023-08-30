@@ -43,8 +43,6 @@
         text-shadow: orange 5px 5px 5px;
         margin-top: 15px;
       }
-      
-
 
 }
 
@@ -90,7 +88,8 @@
         text-shadow: orange 5px 5px 5px;
         margin-top: 20px;
       }
-    
+     
+      
 
 }
 
@@ -151,7 +150,7 @@
     }
 
     .serv-desc{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     
@@ -161,11 +160,95 @@
     }
 
     .accordion-body{
-       font-size: 13px;        
+       font-size: 12px;        
     }
 
     .accordion-button.collapsed{
         font-size: 17px;
         font-weight: bold;
     }
+}
+
+/*FIRST MEDIA QUERY FOR THE ABOUT SECTION  */
+@media (width < 350px){
+
+    .box-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 160vh;
+        width: 100%;
+    }
+
+    .box-content img{
+        margin-left: 100px;
+        width: 120px;
+        height:100px;
+        border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
+      }
+
+      .box-content h1{
+        font-family: 'Splash', cursive;
+        letter-spacing: 2px;
+        font-size: 26px;
+        text-align: center;
+        text-shadow: orange 5px 5px 5px;
+      }
+
+      .box-content h1 span{
+        font-family: 'Splash', cursive;
+        letter-spacing: 1px;
+        font-size: large;
+      }
+
+      .box-content P{
+        font-size: 10px;
+        text-shadow: orange 5px 5px 5px; 
+      }
+
+}
+
+/*SECOND MEDIA QUERY FOR THE ABOUT SECTION  */
+@media (width < 770px){
+
+    .box-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 160vh;
+        width: 100%;
+    }
+
+    .box-content img{
+        /* margin-left: 100px; */
+        width: 150px;
+        height:120px;
+        border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
+      }
+
+      .box-content h1{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Splash', cursive;
+        letter-spacing: 2px;
+        font-size: 35px;
+        /* margin-left: 100px; */
+        text-align: center;
+        justify-content: center;
+        text-shadow: orange 5px 5px 5px;
+      }
+
+      .box-content h1 span{
+        font-family: 'Splash', cursive;
+        letter-spacing: 1px;
+        font-size: large;
+      }
+
+      .box-content P{
+        font-size: 12px;
+        text-shadow: orange 5px 5px 5px; 
+      }
+
 }
