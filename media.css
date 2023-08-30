@@ -9,6 +9,32 @@
         width: 100%;
         
       }
+      .container{
+        width: 100%;
+      }
+
+      .navbar {
+        position: fixed;
+        display: flex;
+        justify-content: center  !important;
+        top: 0;
+        left: 0;
+        height: 10vh;
+        width: 100%;
+        align-items: center;
+        padding: 0px 5%;   
+        background-color: transparent  !important;
+        z-index: 10;
+      }
+     
+      
+    
+      .navbar img{
+        height: 9vh;
+        width: 60px;
+        border-radius: 50%;
+      }
+    
       
     .content{
         padding-top: 20px;
@@ -172,23 +198,24 @@
 /*FIRST MEDIA QUERY FOR THE ABOUT SECTION  */
 @media (width < 350px){
 
-    .box-content{
+    #about{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 160vh;
+        height: 115vh;
         width: 100%;
+        /* font-size: 10px; */
     }
 
-    .box-content img{
+    #about img{
         margin-left: 100px;
         width: 120px;
         height:100px;
         border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
       }
 
-      .box-content h1{
+      #about h1{
         font-family: 'Splash', cursive;
         letter-spacing: 2px;
         font-size: 26px;
@@ -196,13 +223,13 @@
         text-shadow: orange 5px 5px 5px;
       }
 
-      .box-content h1 span{
+      #about h1 span{
         font-family: 'Splash', cursive;
         letter-spacing: 1px;
         font-size: large;
       }
 
-      .box-content P{
+      #about P{
         font-size: 10px;
         text-shadow: orange 5px 5px 5px; 
       }
@@ -212,23 +239,24 @@
 /*SECOND MEDIA QUERY FOR THE ABOUT SECTION  */
 @media (width < 770px){
 
-    .box-content{
+    #about{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 160vh;
+        height: 115vh;
         width: 100%;
+        /* font-size: 10px; */
     }
 
-    .box-content img{
+    #about img{
         /* margin-left: 100px; */
         width: 150px;
         height:120px;
         border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
       }
 
-      .box-content h1{
+      #about h1{
         display: flex;
         flex-direction: column;
         font-family: 'Splash', cursive;
@@ -240,13 +268,13 @@
         text-shadow: orange 5px 5px 5px;
       }
 
-      .box-content h1 span{
+      #about h1 span{
         font-family: 'Splash', cursive;
         letter-spacing: 1px;
         font-size: large;
       }
 
-      .box-content P{
+      #about p{
         font-size: 12px;
         text-shadow: orange 5px 5px 5px; 
       }

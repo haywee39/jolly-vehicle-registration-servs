@@ -43,6 +43,10 @@ body{
 
 
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
+
+.container{
+  width: 100%;
+}
 .navbar {
     position: fixed;
     display: flex;
@@ -167,7 +171,7 @@ body{
 /* START- ABOUT SECTION BEGINS HERE */
 #about{
   display:flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -189,7 +193,8 @@ body{
 /*end- style inner div */
 
 /*start- jolly's image styling */
-.box-content img{
+/* .box-content img{ */
+  #about img{
   margin-left: 100px;
   width: 330px;
   height:440px;
@@ -198,7 +203,8 @@ body{
 /*end- jolly's image styling */
 
 /*start- jolly's name styling */
-.box-content h1{
+/* .box-content h1{ */
+  #about h1{
   font-family: 'Splash', cursive;
   letter-spacing: 2px;
   font-size: 75px;
@@ -208,7 +214,8 @@ body{
 }
 /*end- jolly's name styling */
 
-.box-content h1 span{
+/* .box-content h1 span{ */
+  #about h1 span{
   font-family: 'Splash', cursive;
   letter-spacing: 1px;
   font-size: 30px;
@@ -217,7 +224,8 @@ body{
 }
 
 /*start- jolly's description styling */
-.box-content p{
+/* .box-content p{ */
+  #about p{
   font-size: 14px;
   margin-left: 100px;
   margin-right: 100px;
