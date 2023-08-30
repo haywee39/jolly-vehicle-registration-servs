@@ -12,23 +12,27 @@ html{
 
 body{
   overflow-x: hidden;
+  
 }
 
 /* START- STYLING FOR THE LANDING-PAGE   */
 .landing-page{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
   width: 100%;
-  
+  /* margin-top: 10vh; */
+
+
 }
 
 .back-video{
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: -10;
 }
 
 @media (min-aspect-ratio:16/9) {
@@ -43,33 +47,39 @@ body{
 
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
 .navbar{
-  color: white;
-  background: #454545 !important;
+  position: fixed;
+  display: flex;
+  justify-content: center  !important;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  padding: 0px 5%;   
+  background-color: transparent  !important;
+  z-index: 10;
   
 }
 
 .navbar-brand img{
   background: white !important;
-  width: 35px;
-  height: 35px;
+  width: 65px;
+  height:65px;
+  border-radius: 50%;
 }
 
 .nav-item a{
   color:white !important;
+  text-decoration: none;
+  text-shadow: orange 5px 5px 5px;
 }
 
 .nav-item a:hover{
   color:orange !important;
+  /* color: orange; */
+  text-shadow: black 5px 5px 5px !important;
 }
 
-.dropdown-menu{
-  background:#454545 !important   
-}
-
-.dropdown-menu li a:hover{
-  background:orange !important;
-  color: white !important;
-}
 
 /* 
 .navbar {
