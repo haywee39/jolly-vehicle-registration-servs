@@ -19,8 +19,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  height: 100svh;
+  height: 90vh;
   width: 100%;
   
 }
@@ -43,10 +42,36 @@ body{
 
 
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
-
-.container{
-  width: 100%;
+.navbar{
+  color: white;
+  background: #454545 !important;
+  
 }
+
+.navbar-brand img{
+  background: white !important;
+  width: 35px;
+  height: 35px;
+}
+
+.nav-item a{
+  color:white !important;
+}
+
+.nav-item a:hover{
+  color:orange !important;
+}
+
+.dropdown-menu{
+  background:#454545 !important   
+}
+
+.dropdown-menu li a:hover{
+  background:orange !important;
+  color: white !important;
+}
+
+/* 
 .navbar {
     position: fixed;
     display: flex;
@@ -89,7 +114,7 @@ body{
   .navbar a:hover{
     color: orange;
     text-shadow: black 5px 5px 5px;
-  }
+  } */
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
 
 
