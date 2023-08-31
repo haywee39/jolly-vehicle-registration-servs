@@ -15,54 +15,28 @@ body{
   
 }
 
-/* START- STYLING FOR THE LANDING-PAGE   */
-.landing-page{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  width: 100%;
-  /* margin-top: 10vh; */
 
-
-}
-
-.back-video{
+video {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
-@media (min-aspect-ratio:16/9) {
-  .back-video{
-    width: 100%;
-    height: auto;
-  }
-  
-}
-/* END- STYLING FOR THE LANDING-PAGE   */
 
 
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
+
 .navbar{
-  position: fixed;
-  display: flex;
-  justify-content: center  !important;
-  top: 0;
-  left: 0;
+  color: white;
   height: 10vh;
-  width: 100%;
-  align-items: center;
-  padding: 0px 5%;   
-  background-color: transparent  !important;
-  z-index: 10;
-  
+  background: transparent;
 }
 
 .navbar-brand img{
-  background: white !important;
   width: 65px;
   height:65px;
   border-radius: 50%;
@@ -72,80 +46,41 @@ body{
   color:white !important;
   text-decoration: none;
   text-shadow: orange 5px 5px 5px;
+  margin-left: 30px;
 }
 
 .nav-item a:hover{
   color:orange !important;
-  /* color: orange; */
   text-shadow: black 5px 5px 5px !important;
 }
 
-
-/* 
-.navbar {
-    position: fixed;
-    display: flex;
-    justify-content: center  !important;
-    top: 0;
-    left: 0;
-    height: 10vh;
-    width: 100%;
-    align-items: center;
-    padding: 0px 5%;   
-    background-color: transparent  !important;
-    z-index: 10;
-  }
- 
-  
-
-  .navbar img{
-    height: 9vh;
-    width: 60px;
-    border-radius: 50%;
-  }
-  
-  .navbar ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .navbar li {
-    display: inline-block;
-    margin: 0 20px;
-  }
-  
-  .navbar a {
-    position: relative;
-    color: white;
-    text-decoration: none;
-    text-shadow: orange 5px 5px 5px;
-  }
-
-  .navbar a:hover{
-    color: orange;
-    text-shadow: black 5px 5px 5px;
-  } */
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
 
 
 
 /* START- CENTER CAPTION ON LANDING-PAGE AND EXPLORE BUTTON HERE */
-.content{
+.content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding-top: 100px;
   color: white;
 }
+
 
 /* start- vehicle registration services */
 .content h1{
     font-family: fantasy;
     font-size: 70px;
     letter-spacing: 2px;
+    text-align: center;
     font-weight: bold;
     animation: change;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    /* animation-direction: alternate; */
+    
 }
 @keyframes change {
   0%{
@@ -183,8 +118,6 @@ body{
   background-image: linear-gradient(315deg, #69140e 0%, #d58936 74%);
   padding: 25px 65px;
   border-radius: 25px;
-  /* outline: 2px solid rgb(64, 30, 0); */
-  /* color: rgb(64, 30, 0) */
 }
 /* end- explore button */
 

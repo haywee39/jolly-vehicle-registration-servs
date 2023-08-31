@@ -1,22 +1,7 @@
 /* FIRST MEDIA QUERY FOR THE HOME SECTION */
 @media (width < 350px){
-    .landing-page{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        width: 100%;
-        
-      }
-      .container{
-        width: 100%;
-      }
-
+   
       
-    .content{
-        padding-top: 20px;
-
-    }
     .content h1{
         font-size: 30px;
 
@@ -51,19 +36,7 @@
 
 /*SECOND MEDIA QUERY FOR THE HOME SECTION  */
 @media (width < 770px) {
-    .landing-page{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        height: 100svh;
-        width: 100%;
-        
-      }
-    .content{
-        padding-top: 25px;
-
-    }
+   
     .content h1{
         font-size: 35px;
 
