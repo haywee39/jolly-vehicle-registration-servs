@@ -15,16 +15,22 @@ body{
   
 }
 
+.hero{
+  width: 100%;
+  height: 100vh;
+}
 
+/* BACKGROUND VID START HERE */
 video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   z-index: -1;
 }
+/* BACKGROUND VID END HERE */
 
 
 
@@ -33,25 +39,30 @@ video {
 .navbar{
   color: white;
   height: 10vh;
+  width: 100%;
   background: transparent;
+  
 }
 
+/* STRAT JOLLY PIC AT TOP LEFT */
 .navbar-brand img{
   width: 65px;
   height:65px;
   border-radius: 50%;
 }
+/* END JOLLY PIC AT TOP LEFT */
 
 .nav-item a{
   color:white !important;
   text-decoration: none;
   text-shadow: orange 5px 5px 5px;
   margin-left: 30px;
+  
 }
 
 .nav-item a:hover{
   color:orange !important;
-  text-shadow: black 5px 5px 5px !important;
+  text-shadow: white 5px 5px 5px !important;
 }
 
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
@@ -118,6 +129,7 @@ video {
   background-image: linear-gradient(315deg, #69140e 0%, #d58936 74%);
   padding: 25px 65px;
   border-radius: 25px;
+  color: white;
 }
 /* end- explore button */
 
@@ -125,9 +137,9 @@ video {
 .content h3{
   font-family: 'Splash', cursive;
   letter-spacing: 3px;
-  font-size: 30px;
+  font-size: 35px;
   text-shadow: orange 5px 5px 5px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 /* end- get on the road hassle free styling */
 
