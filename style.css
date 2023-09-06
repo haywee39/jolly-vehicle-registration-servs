@@ -42,7 +42,7 @@ video {
 .navbar{
   color: white;
   height: 10vh;
-  width: 100%;
+  /* width: 100%; */
   background: transparent;
   
 }
