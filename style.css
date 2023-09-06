@@ -15,8 +15,7 @@ body{
   
 }
 
-.hero{
-  /* margin-top: 10vh; */
+#hero{
   width: 100%;
   height: 100vh;
   display: flex;
@@ -75,7 +74,8 @@ video {
 
 /* START- CENTER CAPTION ON LANDING-PAGE AND EXPLORE BUTTON HERE */
 .content {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,66 +156,56 @@ video {
 #about{
   display:flex;
   /* flex-direction: column; */
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 100vh;
-  height: 100svh;
-  width: 100vw;
+  width: 100%;
   color: white; 
   background-image: linear-gradient(315deg, #69140e 0%, #d58936 74%);
   
 }
 
-/*start- style inner div */
-.box-content{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 90vh;
-  width: 100%; 
-}
-/*end- style inner div */
-
 /*start- jolly's image styling */
-/* .box-content img{ */
+.jolly-pic{
+  width: 22%;
+}
   #about img{
-  margin-left: 100px;
-  width: 330px;
+  width: 280px;
   height:440px;
   border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
 }
 /*end- jolly's image styling */
 
 /*start- jolly's name styling */
-/* .box-content h1{ */
+.jolly-name{
+  width: 32%;
+}
   #about h1{
   font-family: 'Splash', cursive;
   letter-spacing: 2px;
-  font-size: 75px;
-  margin-left: 100px;
+  font-size: 70px;
   text-align: center;
   text-shadow: orange 5px 5px 5px;
 }
 /*end- jolly's name styling */
 
-/* .box-content h1 span{ */
+/*start- get on the road text*/
   #about h1 span{
-  font-family: 'Splash', cursive;
+  font-family: 'Splash';
   letter-spacing: 1px;
   font-size: 30px;
-  /* padding-top: 0; */
-  /* margin-top: 0; */
 }
+/*end- get on the road text*/
 
 /*start- jolly's description styling */
-/* .box-content p{ */
+  .jolly-text{
+    width: 45%;
+  }
   #about p{
   font-size: 14px;
-  margin-left: 100px;
-  margin-right: 100px;
   text-shadow: orange 5px 5px 5px; 
 }
-/*start- jolly's image styling */
+/*end- jolly's description styling */
 
 /* END- ABOUT SECTION ENDS HERE */
 
@@ -232,7 +222,7 @@ video {
 
 .sub{
   height: 100vh;
-  width: 65vw;
+  width: 65%;
 }
 
 #services h1{

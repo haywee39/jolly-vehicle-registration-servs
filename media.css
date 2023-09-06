@@ -1,10 +1,8 @@
 /* FIRST MEDIA QUERY FOR THE HOME SECTION */
-@media (width < 350px){
-   
-      
+@media (width < 410px){
+
     .content h1{
         font-size: 30px;
-
     }
 
     .content h2{
@@ -35,7 +33,7 @@
 }
 
 /*SECOND MEDIA QUERY FOR THE HOME SECTION  */
-@media (width < 770px) {
+@media (width < 768px) {
    
     .content h1{
         font-size: 40px;
@@ -65,19 +63,16 @@
         margin-top: 20px;
       }
      
-      
-
 }
 
 /*FIRST MEDIA QUERY FOR THE SERVICE SECTION  */
-@media (width < 350px) { 
+@media (width < 410px) { 
     #services{
         height: 210vh;
     }
 
     .sub{
-        /* padding-top: 10vh; */
-        width:100vw;
+        width:100%;
         height: 180vh;
         color: white;
         
@@ -90,7 +85,7 @@
         font-size: 10px;
     }
     .accordion-flush{
-        width: 80vw;
+        width: 80%;
         margin-left: 10%;
     }
 
@@ -101,21 +96,19 @@
     .accordion-button.collapsed{
         font-size: 14px;
         font-weight: bold;
-    }
-
-    
+    }    
 
 } 
 
 /*SECOND MEDIA QUERY FOR THE SERVICE SECTION  */
-@media (width < 770px) {
+@media (width < 768px) {
     #services{
         height: 170vh;
+        width: 100%;
     }
 
     .sub{
-        /* padding-top: 10vh; */
-        width:100vw;
+        width:100%;
         height: 130vh;
         color: white;
         margin-bottom: 10px;
@@ -127,11 +120,9 @@
 
     .serv-desc{
         font-size: 12px;
-    }
-
-    
+    }   
     .accordion-flush{
-        width: 80vw;
+        width: 80%;
         margin-left: 10%;
     }
 
@@ -145,26 +136,29 @@
     }
 }
 
+
 /*FIRST MEDIA QUERY FOR THE ABOUT SECTION  */
-@media (width < 350px){
+@media (width < 410px){
 
     #about{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 115vh;
+        height: 100vh;
         width: 100%;
-        /* font-size: 10px; */
     }
-
+    .jolly-pic{
+      width: 90%;
+    }
     #about img{
-        margin-left: 100px;
         width: 120px;
-        height:100px;
+        height:150px;
         border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
       }
-
+      .jolly-name{
+        width: 90%;
+      }
       #about h1{
         font-family: 'Splash', cursive;
         letter-spacing: 2px;
@@ -178,7 +172,9 @@
         letter-spacing: 1px;
         font-size: large;
       }
-
+      .jolly-text{
+        width: 100%;
+      }
       #about P{
         font-size: 10px;
         text-shadow: orange 5px 5px 5px; 
@@ -187,7 +183,7 @@
 }
 
 /*SECOND MEDIA QUERY FOR THE ABOUT SECTION  */
-@media (width < 770px){
+@media (width < 768px){
 
     #about{
         display: flex;
@@ -196,14 +192,15 @@
         align-items: center;
         height: 115vh;
         width: 100%;
-        /* font-size: 10px; */
     }
-
+    
     #about img{
-        /* margin-left: 100px; */
-        width: 150px;
-        height:120px;
+        width: 250px;
+        height:290px;
         border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
+      }
+      .jolly-name{
+        width: 100%;
       }
 
       #about h1{
@@ -211,8 +208,7 @@
         flex-direction: column;
         font-family: 'Splash', cursive;
         letter-spacing: 2px;
-        font-size: 35px;
-        /* margin-left: 100px; */
+        font-size: 38px;
         text-align: center;
         justify-content: center;
         text-shadow: orange 5px 5px 5px;
@@ -221,11 +217,14 @@
       #about h1 span{
         font-family: 'Splash', cursive;
         letter-spacing: 1px;
-        font-size: large;
+        font-size: 30px;
+      }
+      .jolly-pic{
+        width: 90%;
       }
 
       #about p{
-        font-size: 12px;
+        font-size: 15px;
         text-shadow: orange 5px 5px 5px; 
       }
 
