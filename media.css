@@ -162,7 +162,7 @@
       #about h1{
         font-family: 'Splash', cursive;
         letter-spacing: 2px;
-        font-size: 26px;
+        font-size: 25px;
         text-align: center;
         text-shadow: orange 5px 5px 5px;
       }
@@ -170,13 +170,13 @@
       #about h1 span{
         font-family: 'Splash', cursive;
         letter-spacing: 1px;
-        font-size: large;
+        font-size: 22px;
       }
       .jolly-text{
         width: 100%;
       }
       #about P{
-        font-size: 10px;
+        font-size: 12px;
         text-shadow: orange 5px 5px 5px; 
       }
 
@@ -208,7 +208,7 @@
         flex-direction: column;
         font-family: 'Splash', cursive;
         letter-spacing: 2px;
-        font-size: 38px;
+        font-size: 30px;
         text-align: center;
         justify-content: center;
         text-shadow: orange 5px 5px 5px;
@@ -217,14 +217,14 @@
       #about h1 span{
         font-family: 'Splash', cursive;
         letter-spacing: 1px;
-        font-size: 30px;
+        font-size: 27px;
       }
       .jolly-pic{
         width: 90%;
       }
 
       #about p{
-        font-size: 15px;
+        font-size: 17px;
         text-shadow: orange 5px 5px 5px; 
       }
 
