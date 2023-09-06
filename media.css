@@ -195,8 +195,8 @@
     }
     
     #about img{
-        width: 250px;
-        height:290px;
+        width: 150px;
+        height:200px;
         border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
       }
       .jolly-name{
@@ -224,7 +224,7 @@
       }
 
       #about p{
-        font-size: 17px;
+        font-size: 12px;
         text-shadow: orange 5px 5px 5px; 
       }
 
