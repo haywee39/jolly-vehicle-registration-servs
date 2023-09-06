@@ -16,9 +16,9 @@ body{
 }
 
 #home{
+  display: flex;
   width: 100%;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -48,6 +48,9 @@ video {
 }
 
 /* STRAT JOLLY PIC AT TOP LEFT */
+.navbar-toggler-icon {
+  background-color: white; /* Change to the desired color */
+}
 .navbar-brand img{
   width: 65px;
   height:65px;
