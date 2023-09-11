@@ -90,13 +90,13 @@
 /*FIRST MEDIA QUERY FOR THE SERVICE SECTION  */
 @media (width < 410px) { 
     #services{
-        height: 210vh;
+        height: 150vh;
         width: 100%;
     }
 
     .sub{
         width:100%;
-        height: 180vh;
+        height: 150vh;
         color: white;
         
     }
@@ -126,7 +126,7 @@
 /*SECOND MEDIA QUERY FOR THE SERVICE SECTION  */
 @media (width < 768px) {
     #services{
-        height: 170vh;
+        height: 130vh;
         width: 100%;
     }
 
@@ -255,3 +255,29 @@
       }
 
 }
+
+/* MEDIA QUERY FOR THE FOOTER BEGINS HERE  */
+@media (width  < 900px){
+  footer{
+      display:flex;
+      flex-direction: column;
+      background-color: #454545;  
+      width: 100%;
+      height: 40vh;
+      color: white;
+      justify-content: space-evenly;
+      place-items: center;
+      font-size:14px;
+      
+      }
+  .lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+
+  }
+  }
+  

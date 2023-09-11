@@ -306,28 +306,20 @@ video {
 
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     bottom: 0;
     left: 0;
     height: 10vh;
-    width: 10%;
+    width: 100%;
     align-items: center;
-    background-color: #6E2C00;
+    background-image: linear-gradient(215deg, #d58936  20%,  #69140e 74%);
+    color: white;
 }
 
 
-
-.copyright{
+footer a{
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  color: white;
-  /* text-decoration: none; */
-}
-
-.copyright a{
-  display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   color: white;
   text-decoration: none;
   flex-direction: column;
