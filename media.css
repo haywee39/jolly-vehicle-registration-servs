@@ -177,7 +177,9 @@
     #about img{
         width: 120px;
         height:150px;
-        border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
+        margin-left: 10px;
+        /* border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%; */
+        border-radius: 50%;
       }
       .jolly-name{
         width: 90%;
@@ -223,7 +225,9 @@
     #about img{
         width: 150px;
         height:200px;
-        border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
+        margin-left: 20px;
+        /* border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%; */
+        border-radius: 50%;
       }
       .jolly-name{
         width: 100%;

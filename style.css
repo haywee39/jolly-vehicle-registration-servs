@@ -159,7 +159,7 @@ video {
 #about{
   display:flex;
   /* flex-direction: column; */
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   width: 100%;
@@ -173,9 +173,10 @@ video {
   width: 22%;
 }
   #about img{
-  width: 280px;
-  height:440px;
-  border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%;
+  width: 380px;
+  height:470px;
+  /* border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%; */
+  border-radius: 50%;
 }
 /*end- jolly's image styling */
 
