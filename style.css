@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
 }
 
 html{
@@ -36,7 +35,6 @@ video {
 /* BACKGROUND VID END HERE */
 
 
-
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
 
 .navbar{
@@ -49,11 +47,12 @@ video {
 
 /* STRAT JOLLY PIC AT TOP LEFT */
 .navbar-toggler-icon {
-  background-color: orange; /* Change to the desired color */
+  background-color: orange; 
 }
+
 .navbar-brand img{
-  width: 65px;
-  height:65px;
+  width: 50px;
+  height:50px;
   border-radius: 50%;
 }
 /* END JOLLY PIC AT TOP LEFT */
@@ -150,16 +149,13 @@ video {
 }
 /* end- get on the road hassle free styling */
 
-
-
 /* END- CENTER CAPTION LANDING-PAGE AND EXPLORE BUTTON HERE */
 
 
 /* START- ABOUT SECTION BEGINS HERE */
 #about{
   display:flex;
-  /* flex-direction: column; */
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 100vh;
   width: 100%;
@@ -170,11 +166,11 @@ video {
 
 /*start- jolly's image styling */
 .jolly-pic{
-  width: 22%;
+  width: 20%;
 }
   #about img{
-  width: 380px;
-  height:470px;
+  width: 330px;
+  height:450px;
   /* border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%; */
   border-radius: 50%;
 }
@@ -182,9 +178,10 @@ video {
 
 /*start- jolly's name styling */
 .jolly-name{
-  width: 32%;
+  width: 30%;
 }
-  #about h1{
+
+#about h1{
   font-family: 'Splash', cursive;
   letter-spacing: 2px;
   font-size: 70px;
@@ -202,10 +199,11 @@ video {
 /*end- get on the road text*/
 
 /*start- jolly's description styling */
-  .jolly-text{
-    width: 45%;
-  }
-  #about p{
+.jolly-text{
+    width: 30%;
+}
+
+#about p{
   font-size: 14px;
   text-shadow: orange 5px 5px 5px; 
 }
@@ -213,12 +211,14 @@ video {
 
 /* END- ABOUT SECTION ENDS HERE */
 
+
+/* START- SERVICE SECTION BEGINS FROM HERE  */
 #services{
   display:flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  height: 170vh;
+  height: 175vh;
   width: 100%;
   color: white; 
   background-image: linear-gradient(215deg, #d58936  20%,  #69140e 74%);  
@@ -238,12 +238,9 @@ video {
 }
 
 .serv-desc{
-  /* width: 60vw; */
   text-align: center;
   text-shadow: orange 5px 5px 5px;
 }
-
-
 
 /* .accordion-flush{
   width: 50vw;
@@ -257,7 +254,6 @@ video {
   background-image: linear-gradient(-300deg, #d99058 0%, #f8de7e 74%);
 }
 
-
 .accordion-button.collapsed{
   font-family: fantasy;
   font-size: 20px;
@@ -265,8 +261,6 @@ video {
   letter-spacing: 1px;
   word-spacing: 6px; 
   background-image: linear-gradient(319deg, #ba2d0b 0%, #fe7f2d 37%, #ffbf46 100%);
-
-
   
 }
 
@@ -277,10 +271,75 @@ video {
 
 .marq{
   display: flex;
-  /* top: 50%; */
   font-weight: bolder;
 }
+/* END- SERVICE SECTION BEGINS FROM HERE  */
 
+
+
+/* START- CONTACT-US SECTION BEGINS HERE  */
+#contact-us{
+  /* padding-top: 2vh; */
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: white; 
+  background-image: linear-gradient(315deg, #69140e 0%, #d58936 74%);
+}
+
+#contact-us h1{
+  font-family: 'Splash', cursive;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  font-size: 40px;
+  text-shadow: orange 5px 5px 5px;
+}
+
+.contact-desc{
+  text-align: center;
+  text-shadow: orange 5px 5px 5px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 75vh;
+}
+
+#contact-form label {
+  margin-bottom: 5px;
+}
+
+#contact-form input{
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#message{
+  height: 350px;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(315deg, #69140e 0%, #d58936 74%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-image: linear-gradient(319deg, #ba2d0b 0%, #fe7f2d 37%, #ffbf46 100%);
+}
+/* END- CONTACT-US SECTION BEGINS HERE  */
 
 
 
@@ -304,7 +363,6 @@ video {
 
 
 /* STYLING FOR THE FOOTER AREA  */
-
 footer{
     display: flex;
     justify-content: space-evenly;
@@ -317,10 +375,8 @@ footer{
     color: white;
 }
 
-
 footer a{
   display: flex;
-  /* justify-content: space-around; */
   color: white;
   text-decoration: none;
   flex-direction: column;
