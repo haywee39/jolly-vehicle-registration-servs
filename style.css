@@ -242,9 +242,9 @@ video {
   text-shadow: orange 5px 5px 5px;
 }
 
-/* .accordion-flush{
-  width: 50vw;
-} */
+.accordion-item a{
+  margin-right: 40px;
+}
 
 .accordion-body{
   color: white;
