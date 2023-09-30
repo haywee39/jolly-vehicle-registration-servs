@@ -260,6 +260,19 @@
 
 }
 
+
+
+@media (width < 410px){
+  #contact-us h1{
+    letter-spacing: 2px;
+    font-size: 25px;
+  }
+  
+  .contact-desc{
+    font-size: 10px;
+  }
+}
+
 /* MEDIA QUERY FOR THE FOOTER BEGINS HERE  */
 @media (width  < 900px){
   footer{
