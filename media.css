@@ -226,9 +226,9 @@
         width: 150px;
         height:200px;
         margin-left: 20px;
-        /* border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%; */
         border-radius: 50%;
       }
+
       .jolly-name{
         width: 100%;
       }
@@ -261,7 +261,7 @@
 }
 
 
-
+/*FIRST MEDIA QUERY FOR THE CONTACT-US SECTION  */
 @media (width < 410px){
   #contact-us h1{
     font-size: 25px;
@@ -269,19 +269,35 @@
   
   .contact-desc{
     width: 80%;
-    font-size: 10px;
-  }
-
-  #contact-form label {
-    font-size: 10px;
-  }
-
-  #contact-form button {
-    margin-top: 20px;
-    width: 80%;
-    /* padding: 10px 20px; */
-    border-radius: 5px;
     font-size: 12px;
+  }
+
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 75vh;
+  }
+
+}
+
+
+/*SECOND MEDIA QUERY FOR THE CONTACT-US SECTION  */
+@media (width < 768px) {
+  #contact-us h1{
+    font-size: 30px;
+  }
+  
+  .contact-desc{
+    width: 80%;
+    font-size: 14px;
+  }
+
+  #contact-form {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 80%;
+    height: 75vh;
   }
 
 }
