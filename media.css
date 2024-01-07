@@ -307,6 +307,17 @@
 
 }
 
+#client-container{
+  height: 120vh;
+  width: 100%;
+}
+
+.carousel-inner img{
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+}
+
 /* MEDIA QUERY FOR THE FOOTER BEGINS HERE  */
 @media (width  < 900px){
   footer{

@@ -370,7 +370,7 @@ video {
 
 /* CLIENT LIST */
 #client-container{
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -383,7 +383,7 @@ video {
 
 
 #carouselExampleInterval{
-  height: 50vh;
+  height: 60vh;
   width: 50vw;
   display: flex;
   flex-direction: column;
@@ -399,7 +399,7 @@ video {
 }
 
 .carousel-inner{
-  width: 45vw;
+  width: 50vw;
   height: 45vh;
   /* background-color: #d58936; */
   display: block;
