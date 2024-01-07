@@ -284,6 +284,13 @@
 
 /*SECOND MEDIA QUERY FOR THE CONTACT-US SECTION  */
 @media (width < 768px) {
+
+  .jolly-social{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;  
+    cursor: pointer;
+  }
   #contact-us h1{
     font-size: 30px;
   }
