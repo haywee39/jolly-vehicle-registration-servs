@@ -90,7 +90,7 @@
 /*FIRST MEDIA QUERY FOR THE SERVICE SECTION  */
 @media (width < 410px) { 
     #services{
-        height: 150vh;
+        height: 170vh;
         width: 100%;
     }
 
@@ -126,7 +126,7 @@
 /*SECOND MEDIA QUERY FOR THE SERVICE SECTION  */
 @media (width < 768px) {
     #services{
-        height: 160vh;
+        height: 170vh;
         width: 100%;
     }
 
