@@ -317,7 +317,7 @@
 }
 
 #client-container p{
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .carousel-inner img{
@@ -329,12 +329,6 @@
 .carousel-inner{
   width: 100%;
   height: 100%;
-  /* background-color: red; */
-  /* display: block; */
-  /* text-align: center; */
-  /* align-items: center;  */
-  /* justify-content: center; */
-  /* margin-top: 50px; */
 }
 
 
