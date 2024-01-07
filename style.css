@@ -369,14 +369,47 @@ video {
 /* END- CONTACT-US SECTION BEGINS HERE  */
 
 /* CLIENT LIST */
-.marq{
-  height: 60vh;
+#client-container{
+  height: 80vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  background-image: linear-gradient(215deg, #d58936  40%,  #69140e 100%);
+  /* background-color: #ba2d0b; */
 }
+
+
+#carouselExampleInterval{
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner img{
+  width: 170px;
+  height: 170px;
+  border-radius: 90px;
+}
+
+.carousel-inner{
+  width: 45vw;
+  height: 45vh;
+  /* background-color: #d58936; */
+  display: block;
+  text-align: center;
+  align-items: center; 
+  justify-content: center;
+  box-shadow: #f8de7e;
+}
+
+
 
 
 

@@ -19,11 +19,7 @@
 </head>
 <body>
 
-  <header>
-   
-  </header>
-
-<div id="home">
+<section id="home">
                 <video autoplay loop muted plays-inline class="back-video">
                   <source src="/road-vid.mp4" type="video/mp4">
                 </video>
@@ -53,6 +49,9 @@
                             <li class="nav-item">
                               <a class="nav-link" href="#contact-us"><i class="fa-solid fa-phone fa-1x"></i> Contact</a>
                             </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#client-container"><i class="fa-solid fa-phone fa-1x"></i> Our Clients</a>
+                            </li>
                           </ul>
                         </div>
                       </div>
@@ -68,13 +67,13 @@
                     <a href="#services">Request for a Service</a>                    
                     <h3>Get on the Road Hassle-Free!</h3>
                 </div>
-</div>       
+</section>       
     
         
-        <div id="about">
-          <div class="jolly-pic">
-                    <img src="/images/IMG-20230915-WA0009.jpg" alt="jolly pic" loading="lazy" >
-          </div>     
+<section id="about">
+                <div class="jolly-pic">
+                          <img src="/images/IMG-20230915-WA0009.jpg" alt="jolly pic" loading="lazy" >
+                </div>     
                 <div class="jolly-name">         
                     <h1>Adejoke Jolly<br>
                       <span>Get on the Road Hassle-Free!</span>                      
@@ -90,14 +89,12 @@
             
                     </p>
                 </div>    
-        </div>
+</section>
 
 
-  <div id="services">
-        <div class="sub">
-
-
-            <div class="container mt-5">
+<section id="services">
+      <div class="sub">
+          <div class="container mt-5">
               <h1 class="text-center">Our Services</h1>
               <p class="serv-desc">
                 Embodying the essence of business integrity, 
@@ -117,7 +114,7 @@
 
               </p>
             
-              <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion mt-4" id="accordionExample">
                 
                 <!-- Vehicle Insurance-Service 1 -->
                 <div class="accordion-item">
@@ -346,54 +343,115 @@
 
 
 
-              </div>
             </div>
-        </div>  
-  </div>
+          </div>
+      </div>  
+</section>
 
-  <div id="contact-us">
-    
-      <h1 class="text-center">Contact Us</h1>
+<section id="contact-us">
+              
+                <h1 class="text-center">Contact Us</h1>
 
-      <div class="jolly-social">
-        <div class="mail"><i class="fa-solid fa-location-dot fa-2x"></i><a href="#" target="_blank"></a></div>
-        <div class="mail"><i class="fa-solid fa-envelope-square fa-2x"></i><a href="mailto:haywee39@gmail.com" target="_blank"></a></div>
-        <div class="what"><i class="fa-brands fa-whatsapp-square fa-2x"></i><a href="https://api.whatsapp.com/send?phone=2349060325013" target="_blank"></a></div>
-        <div class="phone"><i class="fa-solid fa-phone-square fa-2x"></i><a href="tel:07012784770" target="_blank"></a></div>
-      </div>
-              <p class="contact-desc">
-                
-               
-                For more information about our services or request for any of our services, <br>
-                You can kindly reach out to us through message column below <br>
-                or click on any of the call to action. We are just a click away from here! <br>
-                We are always available to get you on the road hassle free!
-              </p>
-              <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Send Message</button>
-            </form>
-    
-  </div>
+                <div class="jolly-social">
+                  <div class="mail"><i class="fa-solid fa-location-dot fa-2x"></i><a href="#" target="_blank"></a></div>
+                  <div class="mail"><i class="fa-solid fa-envelope-square fa-2x"></i><a href="mailto:haywee39@gmail.com" target="_blank"></a></div>
+                  <div class="what"><i class="fa-brands fa-whatsapp-square fa-2x"></i><a href="https://api.whatsapp.com/send?phone=2349060325013" target="_blank"></a></div>
+                  <div class="phone"><i class="fa-solid fa-phone-square fa-2x"></i><a href="tel:07012784770" target="_blank"></a></div>
+                </div>
+                        <p class="contact-desc">
+                          
+                        
+                          For more information about our services or request for any of our services, <br>
+                          You can kindly reach out to us through message column below <br>
+                          or click on any of the call to action. We are just a click away from here! <br>
+                          We are always available to get you on the road hassle free!
+                        </p>
+                        <form id="contact-form">
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" name="name" required>
+                          
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                          
+                          <label for="message">Message:</label>
+                          <textarea id="message" name="message" required></textarea>
+                          
+                          <button type="submit">Send Message</button>
+                      </form>
+              
+</section>
 
-  <div class="marq">
-        <h3>Some of Our Clients:</h3>
-        <marquee behavior="scroll" direction="left">
-            
-            <h6>Relish Baking Industry</h6>
-            <h6>Cheap & Nice</h6>
-            <h6>Relish Autos</h6>
-            <h6>Most High Schools</h6>             
-        </marquee>
-  </div>
+<section id="client-container">
+                        <h3>Some of Our Clients:</h3>
+                        <p>
+                          With a wide customer client base ranging from <br>
+                          different corporate companies, organizations, <br>
+                          to private individuals, public motorist and cyclists  <br>
+                          from diverse spheres of profession.
+
+                        </p>
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                        <div id="client-list" class="carousel-item active" data-bs-interval="3500">
+                          <img src="./images/relish2.jpeg"  alt="...">
+                          
+                          <h3>Relish Baking Industries</h3>
+                          <p>
+                            She's the best! 
+                            I don't think I've ever met someone honest like her. <br> 
+                            She's tested and trusted. <br>
+                            She will help you renew your documents with ease <br>
+                            I recommend everyone to do business with her.
+                          </p>
+                        </div>
+
+                        <div id="client-list" class="carousel-item" data-bs-interval="3500">
+                          <img src="./images/side.jpg"  alt="...">
+                          <h3>Relish Automobile</h3>
+                          <p>
+                            She's got a wide wealth of experience in this field! <br>
+                            She's a professional. 
+                            She's tested and trusted. <br>
+                            She will help you renew your documents with ease <br>
+                            I endorse her for everyone to trancsact business with her.
+                          </p>
+                        </div>
+
+                        <div id="client-list" class="carousel-item" data-bs-interval="3500">
+                          <img src="./images/IMG-20170505-WA0006_1.jpg"  alt="...">
+                          <h3>Most High Schools</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quis ut ipsam, quasi aspernatur quibusdam at animi dolores 
+                            distinctio laborum sapiente, commodi atque labore facere provident? 
+                            Dolore sequi ullam dicta odio.
+                          </p>
+                        </div>
+
+
+                        <div id="client-list" class="carousel-item" data-bs-interval="3500">
+                          <img src="./images/IMG-20230915-WA0021.jpg"  alt="...">
+                          <h3>Cheap and Nice Supermarket</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quis ut ipsam, quasi aspernatur quibusdam at animi dolores 
+                            distinctio laborum sapiente, commodi atque labore facere provident? 
+                            Dolore sequi ullam dicta odio.
+                          </p>
+                        </div>
+
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+              </div>
+          </div>     
+        
+</section>
 
 
 
