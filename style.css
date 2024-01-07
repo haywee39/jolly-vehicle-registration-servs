@@ -370,7 +370,7 @@ video {
 
 /* CLIENT LIST */
 .marq{
-  height: 20vh;
+  height: 60vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
