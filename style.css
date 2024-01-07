@@ -391,7 +391,7 @@ video {
 }
 
 #client-container p{
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
   text-shadow: orange 5px 5px 5px;
 
@@ -409,19 +409,20 @@ video {
 }
 
 .carousel-inner img{
-  width: 10px;
-  height: 10px;
+  width: 100px;
+  height: 100px;
   border-radius: 10px;
 }
 
 .carousel-inner{
-  /* width: 40vw; */
-  /* height: 45vh; */
+  width: 70vw;
+  height: 45vh;
   /* background-color: red; */
-  /* display: block; */
+  display: block;
   text-align: center;
   align-items: center; 
   justify-content: center;
+  margin-top: 50px;
 }
 
 
