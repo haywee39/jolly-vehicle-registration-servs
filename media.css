@@ -330,6 +330,12 @@
   width: 100% !important;
   height: 100% !important;
 }
+.client-list h3{
+  font-size: 22px;
+}
+.client-list p{
+  font-size: 13px;
+}
 
 
 /* MEDIA QUERY FOR THE FOOTER BEGINS HERE  */
