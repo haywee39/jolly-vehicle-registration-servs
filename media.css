@@ -308,16 +308,16 @@
 }
 
 #client-container{
-  height: 80vh !important;
-  width: 100% !important;
+  height: 80vh;
+  width: 100% ;
 }
 
-#client-container h1{
-  font-size:25px !important;
+.heady-title{
+  /* font-size:25px; */
 }
 
-#client-container p{
-  font-size: 13px !important;
+.heady-desc{
+  /* font-size: 13px; */
 }
 
 .carousel-inner img{

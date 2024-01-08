@@ -370,7 +370,7 @@ video {
 
 /* CLIENT LIST */
 #client-container{
-  height: 80vh !important;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -381,40 +381,47 @@ video {
   /* background-color: #ba2d0b; */
 }
 
-#client-container h1{
+.heady{
+  width: 50%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.heady-title{
   font-family: 'Splash', cursive;
-  letter-spacing: 3px;
-  word-spacing: 10px;
-  font-size: 40px !important;
+  letter-spacing: 3px ;
+  word-spacing: 10px ;
+  font-size: 40px ;
   text-shadow: orange 5px 5px 5px;
 
 }
 
-#client-container p{
-  font-size: 16px !important;
+.heady-desc{
+  font-size: 16px ;
   text-align: center;
   text-shadow: orange 5px 5px 5px;
 
 }
 
-
-
-
 .carousel-inner img{
   width: 100px !important;
   height: 100px !important;
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 
 .carousel-inner{
   width: 70vw !important;   
-  height: 45vh !important;
+  height: 55vh !important;
   /* background-color: red; */
   display: block;
   text-align: center;
   align-items: center; 
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px !important; */
 }
 
 
