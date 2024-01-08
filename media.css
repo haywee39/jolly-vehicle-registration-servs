@@ -308,16 +308,16 @@
 }
 
 #client-container{
-  height: 80vh;
+  height: 90vh;
   width: 100% ;
 }
 
 .heady-title{
-  /* font-size:25px; */
+  font-size:25px;
 }
 
 .heady-desc{
-  /* font-size: 13px; */
+  font-size: 13px;
 }
 
 .carousel-inner img{
