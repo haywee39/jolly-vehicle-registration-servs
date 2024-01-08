@@ -88,7 +88,7 @@
 }
 
 /*FIRST MEDIA QUERY FOR THE SERVICE SECTION  */
-@media (width < 410px) { 
+@media (width < 768px) { 
     #services{
         height: 170vh;
         width: 100%;
@@ -161,7 +161,7 @@
 
 
 /*FIRST MEDIA QUERY FOR THE ABOUT SECTION  */
-@media (width < 410px){
+@media (width < 768px){
 
     #about{
         display: flex;
@@ -262,7 +262,7 @@
 
 
 /*FIRST MEDIA QUERY FOR THE CONTACT-US SECTION  */
-@media (width < 410px){
+@media (width < 768px){
   #contact-us h1{
     font-size: 25px;
   }
