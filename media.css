@@ -334,10 +334,10 @@
   width: 100% !important;
   height: 100% !important;
 }
-.carousel-inner .client-list h3{
+.carousel-inner #client-list h3{
   font-size: 22px !important;
 }
-.carousel-inner .client-list p{
+.carousel-inner #client-list p{
   font-size: 13px !important;
 }
 
