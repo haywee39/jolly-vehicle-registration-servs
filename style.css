@@ -41,7 +41,7 @@ video {
   color: white;
   height: 10vh;
   width: 100%;
-  background: transparent;
+  background: linear-gradient(315deg, #69140e 0%, #d58936 74%);
   
 }
 
@@ -69,6 +69,8 @@ video {
   color:orange !important;
   text-shadow: white 3px 3px 3px !important;
 }
+
+
 
 /* END: STYLING FOR THE NAVBAR ENDS HERE */
 

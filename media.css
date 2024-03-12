@@ -11,6 +11,9 @@
     background: transparent;
     
   }
+  #navbarNavDropdown{
+    background: linear-gradient(315deg, #69140e 0%, #d58936 74%);
+  }
 
     .content h1{
         font-size: 35px;
@@ -178,7 +181,6 @@
         width: 120px;
         height:150px;
         margin-left: 10px;
-        /* border-radius:56% 44% 73% 27%/ 45% 68% 32% 55%; */
         border-radius: 50%;
       }
       .jolly-name{
